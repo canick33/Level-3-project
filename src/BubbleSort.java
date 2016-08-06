@@ -1,17 +1,9 @@
 import java.util.Random;
 
 public class BubbleSort {
-	public static void main(String[] args) {
-		int[] nums = new int[64];
 
-		for(int i =0;i<nums.length;i++)
-		{
-			nums[i] =i;
-		}
-
-	 int lenArray = nums.length/2;
-	 int index = 17;
-
+public int[] sort(int[] nums)
+{
 	 for(int i=0;i<10;i++)
 	 {
 		 System.out.println(i+" "+lenArray);
